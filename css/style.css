@@ -1,0 +1,64 @@
+.text-left {
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(112, 117, 122);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.button{
+    background-color: #fff;
+    color: rgb(39, 39, 39);
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    box-shadow: inset;
+}
+
+.g-box {
+    width: 272px;
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url('../google_img/googlelogo_color_272x92dp.png');
+    background-position: center center;
+
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    box-shadow:rgb(39, 39, 39);
+  }
+
+.search-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c4043;
+}
