@@ -1,7 +1,8 @@
-.text-left {
-    margin-left: 0px;
+.text {
     font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
     color: rgb(112, 117, 122);
+    position: relative;
 }
 
 a:hover{
@@ -9,14 +10,10 @@ a:hover{
 }
 
 .button{
-    background-color: #fff;
+    background-color: #f8f9fa;
     color: rgb(39, 39, 39);
-    padding: 10px 15px;
+    padding: 5px 50px;
     border: none;
-}
-
-.button:hover{
-    box-shadow: inset;
 }
 
 .g-box {
@@ -27,6 +24,9 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    position: absolute;
+    left: 25%;
+    bottom: 55%;
     background-repeat: no-repeat;
     background-image: url('../google_img/googlelogo_color_272x92dp.png');
     background-position: center center;
@@ -37,10 +37,15 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 16px;
     overflow: hidden;
-    background-color: #333;
-  }
+    position: absolute;
+    left: 28.5%;
+    bottom: 50%;
+    background-color: #FFF;
+    box-shadow: 0 0 0 0.1pt black;
+    border-radius: 25px;
+    width: 40%;
   
 li {
     float: left;
@@ -58,7 +63,24 @@ li a:hover {
     box-shadow:rgb(39, 39, 39);
   }
 
+#textSearch {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #3c4043;
+    position:fixed;
+    display:flex;
+    justify-content: flex-start;
+    right: 50px;
+}
+
+/*
 .search-text {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
     color: #3c4043;
+    position:fixed;
+    display:flex;
+    justify-content: flex-start;
+    right: 50px;
 }
+*/
